@@ -10,10 +10,15 @@ public class Employee
    {
 	   return "Java";
    }
+   public int m3()
+   {
+	   return 20;
+   }	   		
    public static void main(String[] args) 
    {
 	Employee e = new Employee();
 	e.m1();
 	e.m2();
+	e.m3();
 }
 }
